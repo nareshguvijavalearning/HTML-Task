@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form with All Input Types</title>
+</head>
+<body>
+
+<h1>Form with All Input Types</h1>
+
+<form action="/submit" method="POST">
+    
+    
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text"><br><br>
+
+ 
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+   
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number"><br><br>
+
+    
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel"><br><br>
+
+    
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url"><br><br>
+
+   
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search"><br><br>
+
+   
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+    
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+
+    <label for="range">Range:</label>
+    <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+    
+    <label>Radio Buttons:</label><br>
+    <input type="radio" id="option1" name="radio" value="option1">
+    <label for="option1">Option 1</label><br>
+    <input type="radio" id="option2" name="radio" value="option2">
+    <label for="option2">Option 2</label><br><br>
+
+  
+    <label>Checkboxes:</label><br>
+    <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+    <label for="checkbox1">Checkbox 1</label><br>
+    <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+    <label for="checkbox2">Checkbox 2</label><br><br>
+
+  
+    <label for="file">File:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    
+    <label for="select">Select:</label>
+    <select id="select" name="select">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select><br><br>
+
+   
+    <label for="multiselect">Multiple Select:</label>
+    <select id="multiselect" name="multiselect" multiple>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select><br><br>
+
+ 
+    <label for="textarea">Textarea:</label><br>
+    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+   
+    <input type="hidden" name="hiddenField" value="hiddenValue">
+
+  
+    <input type="submit" value="Submit">
+
+    
+    <input type="reset" value="Reset">
+
+  
+    <button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+
+</form>
+
+</body>
+</html>
